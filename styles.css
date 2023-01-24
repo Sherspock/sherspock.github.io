@@ -9,3 +9,6 @@ html {
   box-sizing: inherit;
 }
 
+.header {
+  background-color: magenta;
+}
