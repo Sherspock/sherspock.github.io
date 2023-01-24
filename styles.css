@@ -12,3 +12,8 @@ html {
 .header {
   background-color: magenta;
 }
+
+.img {
+  width: 300px;
+  height: 200px;
+}
