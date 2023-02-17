@@ -13,7 +13,7 @@ html {
   background-color: magenta;
 }
 
-img {
-  width: 300px;
+.banner {
+  width: auto;
   height: 200px;
 }
