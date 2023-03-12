@@ -1,16 +1,103 @@
 html {
-  box-sizing: border-box;
-  
+  font-family: 'Baskervville', serif, sans-serif;
+  font-size: 16px;
+  background-color: #FFF8E7;
+  margin: 0;
+  padding: 0;
 }
 
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
+h1 {
+  font-family: 'Baskervville', serif, sans-serif;
+  font-size: 2.5rem;
+  color: #FF2400;
+ }
 
-.header {
-  background-color: magenta;
+ .header {
+   background-color: black;
+   padding: 10px;
+   margin: 0;
+ }
+
+.mission {
+  background-image: url('https://beattheroom.com/wp-content/uploads/2017/05/221b-large.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 250px;
   text-align: center;
-  font-family: serif, sans-serif;
+  color: #FF2400;
+}
+
+.navbar p {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.services h3 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-width: 200px;
+  min-height: 200px;
+  color:  #FFF8E7;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#crime {
+  background-image: url("https://images.unsplash.com/photo-1547057740-4b18aac8eed2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWFnbmlmeWluZyUyMGdsYXNzfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#legal {
+  background-image: url("https://media.npr.org/assets/img/2016/09/02/gettyimages-152381727_custom-6cf8ee3a5d92b0ac14228f7245f0daa6fd4625d0-s900-c85.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#people {
+  background-image: url("https://www.tattoomenow.com/tattoo-designs/wp-content/uploads/2021/05/Koi-fish-tattoo-21.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#code {
+  background-image: url("https://www.amalag.com/wp-content/uploads/2017/06/cipher_2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#safety {
+  background-image: url("https://americanescaperooms.com/uploads/blog/5-types-of-escape-room-lock-puzzles/c7644be48db3c17499f4059619d47e70.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#matrimony {
+ background-image: url("https://npr.brightspotcdn.com/dims4/default/4b730e9/2147483647/strip/true/crop/805x1039+0+0/resize/880x1136!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fhppr%2Ffiles%2F201901%2Fa_scandal_in_bohemia-06_wikimedia_commons.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.team {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+h3 {
+  text-align: center;
+}
+
+img {
+  height: 200px;
+  width: 200px;
 }
