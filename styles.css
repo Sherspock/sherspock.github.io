@@ -12,7 +12,7 @@ h1 {
   color: #FF2400;
  }
 
-h2 {
+.mission h2 {
   text-align: center;
 }
 
@@ -22,7 +22,7 @@ h2 {
    margin: 0;
  }
 
-.mission {
+.banner {
   background-image: url('https://beattheroom.com/wp-content/uploads/2017/05/221b-large.jpg');
   background-repeat: no-repeat;
   background-position: center;
