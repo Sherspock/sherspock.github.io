@@ -96,6 +96,7 @@ html {
 .team {
   display: inline-flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 
 h3 {
