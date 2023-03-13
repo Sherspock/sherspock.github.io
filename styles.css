@@ -12,6 +12,10 @@ h1 {
   color: #FF2400;
  }
 
+h2 {
+  text-align: center;
+}
+
  .header {
    background-color: black;
    padding: 10px;
