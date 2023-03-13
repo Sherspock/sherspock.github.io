@@ -94,15 +94,24 @@ html {
 }
 
 .team {
-  display: inline-flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto)
 }
-
-h3 {
+  
+.team h3 {
   text-align: center;
 }
 
-img {
-  height: 200px;
-  width: 200px;
+#sh {
+  grid-column: 1;
+}
+
+#jw {
+  grid-column: 2;
+}
+
+#mh {
+  grid-column: 3;
 }
