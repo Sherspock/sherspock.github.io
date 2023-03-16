@@ -40,7 +40,7 @@ html {
   color: #FF2400;
 }
 
-.navbar li {
+.navbar p {
   display: inline-flex;
   flex-direction: column;
   justify-content: space-around;
@@ -52,9 +52,9 @@ html {
   justify-content: space-around;
   min-width: 200px;
   min-height: 200px;
-  border-radius: 5px;
-  text-align: center;
   color:  #FFF8E7;
+  text-align: center;
+  border-radius: 5px;
 }
 
 #crime {
