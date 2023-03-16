@@ -116,13 +116,3 @@ img {
   height: 200px;
   width: 200px;
 }
-
-@media only screen and (max-width: 480px) {
-  .services {
-    display: block;
-}
-  .team {
-    display: block;
-    padding: 10px;
-    margin: 10px;
-}
