@@ -120,13 +120,13 @@ img {
 @media only screen and (max-width: 600px) {
   .services {
     display: grid;
-    grid-columns: 1;
-    grid-rows: auto;
+    grid-column: 1;
+    grid-row: auto;
   }
   .team {
     display: grid;
-    grid-columns: 1;
-    grid-rows: auto;
+    grid-column: 1;
+    grid-row: auto;
   }
   img {
   height: auto;
