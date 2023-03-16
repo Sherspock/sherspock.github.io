@@ -46,7 +46,7 @@ html {
   justify-content: space-around;
 }
 
-.services h3 {
+.services {
   display: inline-flex;
   flex-direction: column;
   justify-content: space-around;
