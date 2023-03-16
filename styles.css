@@ -119,14 +119,18 @@ img {
 
 @media only screen and (max-width: 600px) {
   .services {
-    display: grid;
-    grid-column: 1;
-    grid-row: auto;
+   display: grid;
+   height: 100px;
+   grid-template-columns: repeat(1, 1fr);
+   grid-template-rows: repeat(6, 200px);
+}
   }
   .team {
     display: grid;
-    grid-column: 1;
-    grid-row: auto;
+    height: 100px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 200px);
+}
   }
   img {
   height: auto;
