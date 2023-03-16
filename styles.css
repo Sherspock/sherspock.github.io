@@ -40,22 +40,19 @@ html {
   color: #FF2400;
 }
 
-.navbar p {
+.navbar li {
   display: inline-flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
-.services {
+.services h3 {
   display: inline-flex;
   flex-direction: column;
   justify-content: space-around;
   min-width: 200px;
   min-height: 200px;
   border-radius: 5px;
-}
-
-.services h3 {
   text-align: center;
   color:  #FFF8E7;
 }
