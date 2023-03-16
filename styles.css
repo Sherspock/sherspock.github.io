@@ -120,18 +120,9 @@ img {
 @media only screen and (max-width: 480px) {
   .services {
     display: block;
-    width: 200px;
-    height: 200px;
-    margin: 10px;
 }
   .team {
     display: block;
-    width: 200px;
-    height: 200px;
+    padding: 10px;
     margin: 10px;
-}
-  img {
-  height: auto;
-  width: 100%;
-}
 }
