@@ -46,15 +46,18 @@ html {
   justify-content: space-around;
 }
 
-.services h3 {
+.services {
   display: inline-flex;
   flex-direction: column;
   justify-content: space-around;
   min-width: 200px;
   min-height: 200px;
-  color:  #FFF8E7;
-  text-align: center;
   border-radius: 5px;
+}
+
+.services h3 {
+  text-align: center;
+  color:  #FFF8E7;
 }
 
 #crime {
@@ -112,4 +115,21 @@ html {
 img {
   height: 200px;
   width: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+  .services {
+    display: grid;
+    grid-columns: 1;
+    grid-rows: auto;
+  }
+  .team {
+    display: grid;
+    grid-columns: 1;
+    grid-rows: auto;
+  }
+  img {
+  height: auto;
+  width: 100%;
+}
 }
